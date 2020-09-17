@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AlarmsDisabled</key>
+	<false/>
+	<key>Checked</key>
+	<integer>1</integer>
+	<key>Color</key>
+	<string>#E6C800FF</string>
+	<key>Enabled</key>
+	<true/>
+	<key>EventContainer</key>
+	<true/>
+	<key>IsNaturalLanguageSuggestedEventCalendar</key>
+	<false/>
+	<key>IsSuggestedEventCalendar</key>
+	<true/>
+	<key>Key</key>
+	<string>4E8FCE4B-3003-4ABF-AD50-33DC2F711F05</string>
+	<key>Order</key>
+	<integer>0</integer>
+	<key>ShareDefaultAlarmSettings</key>
+	<false/>
+	<key>TaskContainer</key>
+	<false/>
+	<key>Title</key>
+	<string>Siri Önerileri</string>
+	<key>Type</key>
+	<string>Local</string>
+</dict>
+</plist>

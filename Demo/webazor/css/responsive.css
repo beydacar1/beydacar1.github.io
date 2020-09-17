@@ -1,0 +1,367 @@
+@media (max-width: 576px) {
+  body {
+    width: 100% !important; }
+    body header {
+      width: 100% !important; }
+      body header .header {
+        width: 95% !important;
+        border: none !important;
+        padding-top: 15px !important;
+        flex-direction: column !important; }
+        body header .header nav {
+          width: 100% !important; }
+          body header .header nav #icon {
+            display: block !important;
+            position: absolute !important;
+            top: 20px !important;
+            right: 20px !important; }
+            body header .header nav #icon svg {
+              fill: white; }
+            body header .header nav #icon:hover {
+              cursor: pointer; }
+          body header .header nav #menu {
+            display: none;
+            width: 100%;
+            padding: 15px !important;
+            margin-top: 15px !important;
+            background-color: #000 !important;
+            opacity: 0.34 !important;
+            border: 1px solid #000 !important; }
+            body header .header nav #menu ul {
+              width: 100% !important;
+              display: block !important;
+              padding: 15px auto !important; }
+              body header .header nav #menu ul li {
+                padding-bottom: 15px !important; }
+                body header .header nav #menu ul li a {
+                  font-size: 18px !important;
+                  color: #fff !important;
+                  text-align: center !important; }
+                  body header .header nav #menu ul li a:hover {
+                    color: #69f0ae !important;
+                    border-bottom: none !important; }
+      body header section {
+        width: 100% !important;
+        padding: 20px auto; }
+        body header section h3 {
+          font-size: 20px !important;
+          font-weight: 600; }
+        body header section p {
+          font-size: 12px !important; }
+        body header section button {
+          width: 200px !important;
+          height: 30px !important;
+          font-size: 10px !important;
+          font-weight: 300 !important; }
+      body header #scroll a {
+        padding: 0 !important;
+        margin-top: 15px; }
+    body article {
+      width: 100% !important;
+      margin-top: 15px !important;
+      flex-direction: column !important; }
+      body article .whoamus {
+        width: 95% !important;
+        text-align: center !important;
+        border: none !important; }
+      body article h4 {
+        margin: 0 !important; }
+      body article p {
+        line-height: 20px !important;
+        margin: 0 !important;
+        font-size: 13px !important;
+        padding-top: 10px !important; }
+      body article .importforus {
+        width: 95% !important; }
+        body article .importforus h4 {
+          margin: 0 auto !important;
+          padding-top: 10px !important;
+          padding-bottom: 10px !important;
+          text-align: center !important;
+          font-weight: 400 !important; }
+        body article .importforus ul {
+          margin: 0px auto !important; }
+          body article .importforus ul li {
+            line-height: 20px !important; }
+            body article .importforus ul li a {
+              margin-right: 5px !important;
+              width: 100px !important;
+              height: 30px !important;
+              line-height: 35px !important;
+              margin-bottom: 8px !important; }
+    body aside {
+      width: 100% !important; }
+      body aside #future {
+        width: 100% !important;
+        height: 100px !important; }
+        body aside #future h4 {
+          font-size: 15px !important;
+          text-align: center !important; }
+        body aside #future button {
+          width: 130px !important;
+          height: 30px !important;
+          font-weight: 400 !important;
+          font-size: 12px;
+          margin-left: 5px !important; }
+    body footer {
+      width: 100% !important; }
+      body footer h4 {
+        font-size: 20px !important;
+        padding-top: 10px !important; }
+      body footer #footer {
+        width: 95% !important;
+        flex-direction: column !important; }
+        body footer #footer .contact {
+          width: 80% !important;
+          margin: 0px auto !important;
+          text-align: center; }
+          body footer #footer .contact b {
+            padding-bottom: 10px !important;
+            font-size: 13px !important; }
+          body footer #footer .contact .social-media {
+            width: 80% !important;
+            margin: 0px auto; }
+            body footer #footer .contact .social-media a {
+              padding-right: 15px !important; }
+        body footer #footer .information {
+          width: 100% !important;
+          padding-top: 20px !important;
+          flex-direction: column !important;
+          align-items: center; }
+          body footer #footer .information input {
+            width: 150px !important;
+            height: 30px !important;
+            margin-bottom: 10px !important;
+            padding-left: 10px !important; }
+          body footer #footer .information textarea {
+            width: 150px !important;
+            height: 30px !important;
+            margin-bottom: 10px !important;
+            padding-left: 10px !important;
+            font-size: 12px !important; }
+          body footer #footer .information button {
+            width: 150px !important;
+            height: 40px !important; } }
+
+@media screen and (min-device-width: 577px) and (max-device-width: 768px) {
+  body {
+    width: 100% !important; }
+    body header {
+      width: 100% !important; }
+      body header .header {
+        width: 95% !important;
+        border: none;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        flex-direction: column; }
+        body header .header nav ul {
+          padding-top: 15px !important; }
+          body header .header nav ul a {
+            font-size: 18px; }
+            body header .header nav ul a:hover {
+              border: none; }
+      body header section {
+        width: 100% !important;
+        padding: 22px auto; }
+        body header section h3 {
+          font-size: 22px !important;
+          font-weight: 600; }
+        body header section p {
+          font-size: 14px !important; }
+        body header section button {
+          width: 150px !important;
+          height: 40px !important;
+          font-size: 15px !important;
+          font-weight: 300 !important; }
+      body header #scroll a {
+        padding: 0 !important;
+        margin-top: 18px; }
+    body article {
+      width: 100% !important;
+      margin-top: 18px !important;
+      flex-direction: column !important; }
+      body article .whoamus {
+        width: 95% !important;
+        text-align: center !important;
+        border-bottom: 1px solid #efefef !important;
+        border-right: none !important;
+        padding-bottom: 10px !important; }
+      body article h4 {
+        margin: 0 !important; }
+      body article p {
+        line-height: 23px !important;
+        margin: 0 !important;
+        font-size: 15px !important;
+        padding-top: 15px !important; }
+      body article .importforus {
+        width: 95% !important; }
+        body article .importforus h4 {
+          margin: 0 auto !important;
+          padding-top: 15px !important;
+          padding-bottom: 15px !important;
+          text-align: center !important;
+          font-weight: 400 !important; }
+        body article .importforus ul {
+          margin: 0px auto !important; }
+          body article .importforus ul li {
+            line-height: 25px !important; }
+            body article .importforus ul li a {
+              margin-right: 10px !important;
+              width: 150px !important;
+              height: 40px !important;
+              line-height: 40px !important;
+              margin-bottom: 12px !important; }
+    body aside {
+      width: 100% !important; }
+      body aside #future {
+        width: 100% !important;
+        height: 120px !important; }
+        body aside #future h4 {
+          font-size: 18px !important;
+          padding-left: 15px !important; }
+        body aside #future button {
+          width: 150px !important;
+          height: 40px !important;
+          font-weight: 400 !important;
+          font-size: 15px !important; }
+    body footer {
+      width: 100% !important; }
+      body footer h4 {
+        font-size: 25px !important;
+        padding-top: 15px !important; }
+      body footer #footer {
+        width: 95% !important; }
+        body footer #footer .contact {
+          width: 80% !important;
+          margin: 0px auto !important;
+          padding-right: 18px !important;
+          padding-top: 40px !important;
+          padding-left: 15px !important; }
+          body footer #footer .contact b {
+            padding-bottom: 15px !important;
+            font-size: 15px !important; }
+          body footer #footer .contact .social-media {
+            width: 80% !important;
+            margin: 0px auto; }
+            body footer #footer .contact .social-media a {
+              padding-right: 15px !important; }
+        body footer #footer .information {
+          width: 100% !important;
+          padding-top: 25px !important; }
+          body footer #footer .information input {
+            width: 220px !important;
+            height: 40px !important;
+            margin-bottom: 10px !important;
+            padding-left: 15px !important; }
+          body footer #footer .information textarea {
+            width: 220px !important;
+            height: 40px !important;
+            margin-bottom: 10px !important;
+            padding-left: 15px !important;
+            font-size: 16px !important; }
+          body footer #footer .information button {
+            width: 200px !important;
+            height: 50px !important; } }
+
+@media screen and (min-device-width: 769px) and (max-device-width: 992px) {
+  body {
+    width: 100% !important; }
+    body header {
+      width: 100% !important; }
+      body header .header {
+        width: 95% !important;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        flex-direction: column; }
+        body header .header nav ul {
+          padding-top: 20px !important; }
+          body header .header nav ul li a {
+            font-size: 20px; }
+            body header .header nav ul li a:hover {
+              border: none; }
+      body header section {
+        width: 100% !important;
+        padding: 25px auto; }
+        body header section h3 {
+          font-size: 24px !important;
+          font-weight: 600; }
+        body header section p {
+          font-size: 16px !important; }
+        body header section button {
+          width: 200px !important;
+          height: 45px !important;
+          font-size: 17px !important;
+          font-weight: 400 !important; }
+      body header #scroll a {
+        padding: 0 !important;
+        margin-top: 20px; }
+    body aside {
+      width: 100% !important; }
+      body aside #future {
+        width: 100% !important;
+        height: 120px !important; }
+        body aside #future h4 {
+          font-size: 20px !important; }
+        body aside #future button {
+          width: 180px !important;
+          height: 45px !important;
+          font-weight: 400 !important;
+          font-size: 19px !important; }
+    body footer {
+      width: 100% !important; }
+      body footer h4 {
+        font-size: 28px !important;
+        padding-top: 20px !important; }
+      body footer #footer {
+        width: 100% !important; }
+        body footer #footer .contact {
+          width: 80% !important;
+          margin: 0px auto !important;
+          padding-right: 20px !important;
+          padding-top: 45px !important;
+          padding-left: 20px !important; }
+          body footer #footer .contact b {
+            padding-bottom: 20px !important;
+            font-size: 18px !important; }
+          body footer #footer .contact .social-media {
+            width: 80% !important;
+            margin: 0px auto; }
+            body footer #footer .contact .social-media a {
+              padding-right: 18px !important; }
+        body footer #footer .information {
+          width: 100% !important;
+          padding-top: 28px !important; }
+          body footer #footer .information input {
+            width: 300px !important;
+            height: 40px !important;
+            margin-bottom: 15px !important;
+            padding-left: 20px !important; }
+          body footer #footer .information textarea {
+            width: 300px !important;
+            height: 40px !important;
+            margin-bottom: 15px !important;
+            padding-left: 20px !important;
+            font-size: 18px !important; }
+          body footer #footer .information button {
+            width: 300px !important;
+            height: 55px !important; } }
+
+@media (min-width: 993px) {
+  body {
+    width: 100% !important; }
+    body header {
+      width: 100% !important; }
+      body header .header {
+        width: 100% !important; }
+    body aside {
+      width: 100% !important; }
+      body aside #future {
+        width: 100% !important; }
+      body aside .sayfa {
+        width: 100% !important; }
+        body aside .sayfa .sliderKonum {
+          width: 95% !important; }
+    body footer {
+      width: 100% !important; }
+      body footer #footer {
+        width: 95% !important; } }

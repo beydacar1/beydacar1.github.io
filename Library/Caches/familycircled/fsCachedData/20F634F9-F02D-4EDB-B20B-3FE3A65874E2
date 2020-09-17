@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>cookieDomainUrls</key>
+		<array>
+			<string>https://account-stage.apple.com</string>
+			<string>https://appleid.apple.com</string>
+			<string>https://setup.icloud.com</string>
+			<string>https://gsa.apple.com</string>
+		</array>
+
+		<key>urls</key>
+		<dict>
+			<key>activateEmail</key>
+			<string>https://setup.icloud.com/setup/aos/activate_email/$APPLE_ID$</string>
+
+			<key>qualifyDevice</key>
+			<string>https://setup.icloud.com/setup/qualify/qualifyDevice</string>
+
+			<key>changePasswordUrl</key>
+			<string>https://appleid.apple.com/settings/account/manage/security/password</string>
+
+			<key>getDeviceList</key>
+			<string>https://setup.icloud.com/setup/account/getDevices</string>
+
+			<key>accountViewTabs</key>
+			<string>https://setup.icloud.com/setup/accountViewItemsBag</string>
+
+			<key>qualifyCert</key>
+			<string>https://setup.icloud.com/setup/qualify/cert?ver=P1.29.0</string>
+
+			<key>icdMigrateStatus</key>
+			<string>https://setup.icloud.com/setup/icd/migrate/status</string>
+
+			<key>getMeCardPhoto</key>
+			<string>https://setup.icloud.com/setup/account/getPhoto</string>
+
+			<key>prefpaneLogin</key>
+			<string>https://setup.icloud.com/setup/prefpane/login</string>
+
+			<key>loadPaymentInfoUI</key>
+			<string>https://appleid.apple.com/settings/account/manage/payment/summary</string>
+
+			<key>updateAccount</key>
+			<string>https://setup.icloud.com/setup/aos/update/$APPLE_ID$/$UDID$</string>
+
+			<key>loginDelegates</key>
+			<string>https://setup.icloud.com/setup/prefpane/loginDelegates</string>
+
+			<key>icloud_ba_gateway_url</key>
+			<string>https://gateway.icloud.com:443//baservice</string>
+
+			<key>loadTransferRequestsUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/loadTransferRequestsUI</string>
+
+			<key>loadInvitationsUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/loadInvitationsUI</string>
+
+			<key>addFamilyMemberUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/addFamilyMemberUI</string>
+
+			<key>deregisterDevice</key>
+			<string>https://setup.icloud.com/setup/account/deregisterDevice</string>
+
+			<key>emailLookup</key>
+			<string>https://setup.icloud.com/setup/lookup_email</string>
+
+			<key>validateAccount</key>
+			<string>https://setup.icloud.com/setup/aos/validate/$DS_PRS_ID$/$UDID$</string>
+
+			<key>getAccountSettings</key>
+			<string>https://setup.icloud.com/setup/get_account_settings</string>
+
+			<key>fmAuthenticate</key>
+			<string>https://setup.icloud.com/setup/fmipauthenticate/$APPLE_ID$</string>
+
+			<key>mbLogin</key>
+			<string>https://setup.icloud.com/setup/macbuddy/login</string>
+
+			<key>activateMeEmailUrl</key>
+			<string>https://setup.icloud.com/setup/web/activate_email</string>
+
+			<key>registerDevice</key>
+			<string>https://setup.icloud.com/setup/account/registerDevice</string>
+
+			<key>mbCreateUI</key>
+			<string>https://setup.icloud.com/setup/macbuddy/create_account_ui</string>
+
+			<key>icloud_acsn_gateway_url</key>
+			<string>https://gateway.icloud.com:443//acsnservice</string>
+
+			<key>ckAppInit</key>
+			<string>https://setup.icloud.com/setup/ck/v1/ckAppInit</string>
+
+			<key>checkiCloudMembership</key>
+			<string>https://setup.icloud.com/setup/family/checkiCloudMember</string>
+
+			<key>getRecoverySettings</key>
+			<string>https://setup.icloud.com/setup/get_recovery_settings</string>
+
+			<key>addEmailUI</key>
+			<string>https://setup.icloud.com/setup/add_email_ui</string>
+
+			<key>removeFromFamily</key>
+			<string>https://setup.icloud.com/setup/family/removeFromFamily</string>
+
+			<key>managePurchasesAccountUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/managePurchasesAccountUI</string>
+
+			<key>loadPasswordSecurityUI</key>
+			<string>https://appleid.apple.com/settings/account/manage/security</string>
+
+			<key>mbCheckAccount</key>
+			<string>https://setup.icloud.com/setup/macbuddy/check_account</string>
+
+			<key>register_token</key>
+			<string>https://setup.icloud.com/setup/register_token</string>
+
+			<key>grandslamUrl</key>
+			<string>https://gsa.apple.com/grandslam/GsService</string>
+
+			<key>checkFamilyEligibility</key>
+			<string>https://setup.icloud.com/setup/family/checkEligibility</string>
+
+			<key>repairCloudAccount</key>
+			<string>https://setup.icloud.com/setup/device/mac/accountNeedsRepair</string>
+
+			<key>checkAppleIdAvailabilityUrl</key>
+			<string>https://setup.icloud.com/setup/web/check_availability/</string>
+
+			<key>login</key>
+			<string>https://setup.icloud.com/setup/aos/login/$APPLE_ID$/$UDID$</string>
+
+			<key>rampAlert</key>
+			<string>https://setup.icloud.com/setup/ramp_alert</string>
+
+			<key>newAccount</key>
+			<string>https://setup.icloud.com/setup/aos/create/$UDID$</string>
+
+			<key>checkMeEmailAvailabilityUrl</key>
+			<string>https://setup.icloud.com/setup/web/check_availability/</string>
+
+			<key>icdMigrateInit</key>
+			<string>https://setup.icloud.com/setup/icd/migrate/init</string>
+
+			<key>createAndRegisterAppleIdBaseUrl</key>
+			<string>https://setup.icloud.com/setup/web/create_apple_id_and_account/</string>
+
+			<key>getFamilyMemberPhoto</key>
+			<string>https://setup.icloud.com/setup/family/getMemberPhoto</string>
+
+			<key>icloud_fmip_al_service</key>
+			<string>https://fmipalservice.icloud.com/alservice</string>
+
+			<key>loadFamilyPaymentCardUI</key>
+			<string>https://appleid.apple.com/settings/account/manage/payment/card/family</string>
+
+			<key>mbLoadSSOUI</key>
+			<string>https://setup.icloud.com/setup/macbuddy/sso/load_sso_ui</string>
+
+			<key>qualifySession</key>
+			<string>https://setup.icloud.com/setup/qualify/session</string>
+
+			<key>md-sync-machine</key>
+			<string>https://setup.icloud.com/setup/qualify/syncMachine</string>
+
+			<key>about</key>
+			<string>https://setup.icloud.com/setup/macbuddy/ui/about</string>
+
+			<key>acceptChildTransferRequest</key>
+			<string>https://setup.icloud.com/setup/family/acceptTransferRequest</string>
+
+			<key>secondaryAuthUrl</key>
+			<string>https://appleid.apple.com/settings/authenticate</string>
+
+			<key>setupFamilyUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/setupFamilyUI</string>
+
+			<key>completeVetting</key>
+			<string>https://setup.icloud.com/setup/complete_vetting/$APPLE_ID$</string>
+
+			<key>appleIDSignoutUrl</key>
+			<string>https://appleid.apple.com/settings/signout</string>
+
+			<key>rejectChildTransferRequest</key>
+			<string>https://setup.icloud.com/setup/family/rejectTransferRequest</string>
+
+			<key>loadPersonalInfoUI</key>
+			<string>https://appleid.apple.com/settings/account/manage</string>
+
+			<key>md-finish-provisioning</key>
+			<string>https://setup.icloud.com/setup/qualify/finishProvisioningMachine</string>
+
+			<key>emailTosUrl</key>
+			<string>https://setup.icloud.com/setup/web/mailtos/</string>
+
+			<key>appleIdAuth</key>
+			<string>https://identity.apple.com/dsservices/dsxmlrpc</string>
+
+			<key>updateAccountUI</key>
+			<string>https://setup.icloud.com/setup/update_account_ui</string>
+
+			<key>repairCloudAccountUI</key>
+			<string>https://setup.icloud.com/setup/device/ui/repairCloudAccountUI</string>
+
+			<key>putMeCardPhoto</key>
+			<string>https://setup.icloud.com/setup/account/putPhoto</string>
+
+			<key>getFamilySubscriptions</key>
+			<string>https://setup.icloud.com/setup/family/v2/macos/getFamilySubscriptions</string>
+
+			<key>newAccountUI</key>
+			<string>https://setup.icloud.com/setup/create_account_ui</string>
+
+			<key>getFamilyEventDetails</key>
+			<string>https://setup.icloud.com/setup/family/getEventDetails</string>
+
+			<key>loginOrCreateAccount</key>
+			<string>https://setup.icloud.com/setup/login_or_create_account</string>
+
+			<key>registerWebToken</key>
+			<string>https://setup.icloud.com/setup/web/basic/token_auth_update_account</string>
+
+			<key>rejectFamilyInvitation</key>
+			<string>https://setup.icloud.com/setup/family/rejectInvitation</string>
+
+			<key>getFamilyDetails</key>
+			<string>https://setup.icloud.com/setup/family/v2/getFamilyDetails</string>
+
+			<key>mbLoginSSODelegates</key>
+			<string>https://setup.icloud.com/setup/macbuddy/sso/login_sso_delegates</string>
+
+			<key>updateMemberFlag</key>
+			<string>https://setup.icloud.com/setup/family/v2/ios/updateMemberFlag</string>
+
+			<key>unifiedLoginAccount</key>
+			<string>https://setup.icloud.com/setup/signin/v2/login</string>
+
+			<key>mbUpdateUI</key>
+			<string>https://setup.icloud.com/setup/macbuddy/update_account_ui</string>
+
+			<key>loadPaymentUI</key>
+			<string>https://appleid.apple.com/settings/account/manage/payment</string>
+
+			<key>authenticate</key>
+			<string>https://setup.icloud.com/setup/authenticate/$APPLE_ID$</string>
+
+			<key>initiateVetting</key>
+			<string>https://setup.icloud.com/setup/initiate_vetting/$APPLE_ID$</string>
+
+			<key>dismissAccountAlert</key>
+			<string>https://setup.icloud.com/setup/account/dismissAccountAlert</string>
+
+			<key>updateNameUrl</key>
+			<string>https://appleid.apple.com/settings/account/manage/name</string>
+
+			<key>icdMigrateDevices</key>
+			<string>https://setup.icloud.com/setup/icd/migrate/devices</string>
+
+			<key>createChildAccountUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/createChildAccountUI</string>
+
+			<key>acceptFamilyInvitation</key>
+			<string>https://setup.icloud.com/setup/family/acceptInvitation</string>
+
+			<key>loadDevicesUI</key>
+			<string>https://setup.icloud.com/setup/mac/device/loadDevicesUI</string>
+
+			<key>iForgot</key>
+			<string>https://iforgot.apple.com?type=macsetupassistant</string>
+
+			<key>mbRepairCloudAccountUI</key>
+			<string>https://setup.icloud.com/setup/device/ui/macbuddy/repairCloudAccountUI</string>
+
+			<key>registerWebBasic</key>
+			<string>https://setup.icloud.com/setup/web/basic_auth_update_account</string>
+
+			<key>loadFamilyUI</key>
+			<string>https://setup.icloud.com/setup/mac/family/loadFamilyUI</string>
+
+		</dict>
+
+	</dict>
+</plist>
+
+<!-- OSX -->

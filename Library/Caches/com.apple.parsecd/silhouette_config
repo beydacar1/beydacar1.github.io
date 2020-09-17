@@ -1,0 +1,11 @@
+{
+	"numPortraitTopics": 100,
+	"lastNDays" : 5,
+	"decayRate": 0,
+	"numSilhouetteTopics": 3,
+	"threshold": 0,
+	"scoreBins": 100,
+	"averageTopic": {},
+	"normalize": true,
+	"onlyDoRankingScore": true
+}

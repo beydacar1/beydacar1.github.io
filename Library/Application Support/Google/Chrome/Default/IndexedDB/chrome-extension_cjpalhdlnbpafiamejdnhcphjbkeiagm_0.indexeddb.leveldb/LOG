@@ -1,0 +1,5 @@
+2020/07/18-12:43:20.255 ed1f Reusing MANIFEST /Users/mac/Desktop/Dev/Library/Application Support/Google/Chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/18-12:43:22.277 20e13 Level-0 table #5: started
+2020/07/18-12:43:22.300 20e13 Level-0 table #5: 217 bytes OK
+2020/07/18-12:43:22.326 20e13 Delete type=0 #3
+2020/07/18-12:43:22.333 20e13 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

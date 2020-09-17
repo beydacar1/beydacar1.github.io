@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.google.keystone</key>
+	<dict>
+		<key>DayOfInstall</key>
+		<integer>4947</integer>
+		<key>DayOfLastActive</key>
+		<integer>4947</integer>
+		<key>DayOfLastRollcall</key>
+		<integer>4947</integer>
+		<key>LastActivePingDate</key>
+		<date>2020-07-18T09:35:44Z</date>
+		<key>PingFreshness</key>
+		<string>C50A1218-C08C-4E78-AF37-5CAD0503E800</string>
+		<key>ProductState</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

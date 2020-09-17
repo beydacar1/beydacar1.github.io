@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.google.keystone.daemon</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>${INSTALL_ROOT}Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon</string>
+    ${LOG_EVERYTHING_SETTING}
+	</array>
+	<key>KeepAlive</key>
+	<false/>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.google.Keystone.Daemon.UpdateEngineXPC</key>
+		<true/>
+		<key>com.google.Keystone.Daemon.AdministrationXPC</key>
+		<true/>
+	</dict>
+	<key>UserName</key>
+	<string>root</string>
+	<key>StandardErrorPath</key>
+	<string>${STANDARD_ERROR_PATH}</string>
+	<key>StandardOutPath</key>
+	<string>${STANDARD_OUT_PATH}</string>
+</dict>
+</plist>

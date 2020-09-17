@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DateStarted</key>
+	<date>2020-07-18T09:20:03Z</date>
+	<key>dailyActiveTimePurgeableS</key>
+	<real>5.6539653329999995</real>
+	<key>dailyActiveTimeS</key>
+	<real>5.6539653329999995</real>
+	<key>dailyNumDesiredDiskBroadcastsAll</key>
+	<integer>1</integer>
+	<key>dailyNumDesiredDiskBroadcastsRoot</key>
+	<integer>1</integer>
+	<key>dailyPurgeableReqs</key>
+	<integer>2</integer>
+	<key>purgeable_time_Late_com.apple.metadata.mds.cachedelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.Music.MusicCacheExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.Safari.CacheDeleteExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.TV.TVCacheExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.commerce.cachedelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.coresymbolicationd.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.dt.IDECacheDeleteAppExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.mobileassetd.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.quicklook.ThumbnailsAgent.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.replayd-cache-delete</key>
+	<integer>1</integer>
+</dict>
+</plist>

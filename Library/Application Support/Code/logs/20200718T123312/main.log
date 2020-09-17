@@ -1,0 +1,4 @@
+[2020-07-18 12:33:12.748] [main] [info] update#setState idle
+[2020-07-18 12:33:42.751] [main] [info] update#setState checking for updates
+[2020-07-18 12:33:43.090] [main] [error] UpdateService error: Cannot update while running on a read-only volume. The application is on a read-only volume. Please move the application and try again. If you're on macOS Sierra or later, you'll need to move the application out of the Downloads directory. See https://github.com/Squirrel/Squirrel.Mac/issues/182 for more information.
+[2020-07-18 12:33:43.090] [main] [info] update#setState idle
